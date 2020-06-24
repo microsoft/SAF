@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Microsoft.SAF</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Surface Subsystem Automation Taskforce</Authors>
+    <Company>Microsoft</Company>
+    <Product>SAF</Product>
+    <Description>SAF is a minimal, extendable, archive format.</Description>
+    <Copyright>(c) Microsoft 2020</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+</Project>

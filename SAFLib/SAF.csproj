@@ -9,6 +9,7 @@
     <Product>SAF</Product>
     <Description>SAF is a minimal, extendable, archive format.</Description>
     <Copyright>(c) Microsoft 2020</Copyright>
+    <RepositoryUrl>https://github.com/microsoft/SAF</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

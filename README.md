@@ -7,7 +7,7 @@ The only file archive format built into .NET is Zip, which cannot be read effici
 While SAF was designed to allow for efficient reading and writing from a non-seekable stream, it is more comparable to protobuf than tar – it’s something developers can use and build upon. Headers in an archive are application specific and can be customized per entry (all we define is the base structure; applications can freely extend the header type). 
 
 # Obtaining the Library
-SAF can be compiled easily from source, and nuget packages are available [via this project's GitHub packages](https://github.com/microsoft/SAF/packages). 
+SAF can be compiled easily from source, and nuget.org packages are available (`Microsoft.SurfaceAutomationTeam.SAF`). 
 
 *Note: SAF targets .NET Standard 2.1 - it cannot be used from .NET Framework 4.*
 

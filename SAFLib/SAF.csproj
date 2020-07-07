@@ -13,12 +13,18 @@
     <Copyright>(c) Microsoft Corporation. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/microsoft/SAF</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/microsoft/SAF</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/microsoft/SAF/master/assets/TeamLogo.png</PackageIconUrl>
+    <PackageIcon>TeamLogo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\TeamLogo.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

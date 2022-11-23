@@ -48,8 +48,11 @@ namespace SAF
             if (headerSize == -1) return default;
 
             Span<byte> headerBytes = stackalloc byte[headerSize];
-            baseStream.Read(headerBytes);
-
+            var bytesRead = 0;
+            while (bytesRead < headerSize){
+                bytesRead += baseStream.Read(headerBytes.Slice(bytesRead));
+            }
+            
             return JsonSerializer.Deserialize<THeader>(headerBytes);
         }
 

@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <PackageId>Microsoft.SurfaceAutomationTeam.SAF</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Microsoft</Authors>
     <Product>SAF</Product>
     <Description>SAF is a minimal, extendable, archive format.</Description>
